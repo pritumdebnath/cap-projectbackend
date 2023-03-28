@@ -24,9 +24,6 @@ const bookingSchema = new Schema({
     type: String
   }
 })
-// ,{
-//   timestamps: true
-// })
 
 const Booking = mongoose.model('Booking', bookingSchema);
 
